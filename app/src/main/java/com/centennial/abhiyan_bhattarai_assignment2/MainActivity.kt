@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
             AssignmentTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color.White
+                    color = Color.DarkGray
                 ) {
                     val navController = rememberNavController()
                     NavHost(
